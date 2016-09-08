@@ -1,0 +1,27 @@
+{
+  "name": "cycle-slider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server & webpack --watch --progress -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.14.0"
+  },
+  "dependencies": {
+    "@cycle/dom": "^12.2.4",
+    "@cycle/most-run": "^4.1.0",
+    "most": "^1.0.3",
+    "ramda": "^0.22.1",
+    "snabbdom-jsx": "^0.3.1",
+    "webpack": "^1.13.2",
+    "xstream": "^6.2.0"
+  }
+}
